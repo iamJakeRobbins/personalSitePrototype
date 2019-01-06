@@ -29,4 +29,15 @@ img{
 	height: 233px;
 	width: 350px;
 }
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 50px auto;
+ background: white;
+}
+.photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
 </style>
