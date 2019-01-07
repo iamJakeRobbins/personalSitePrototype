@@ -2,9 +2,14 @@
 	<div class="scrollContainer">
 			<h2>we're going to test a scrolling banner here!</h2>
 			<div id="container">
+    <header>
+     <h1>Animated Photo Banner</h1>
+     <p>Lorem ipsum dolor...</p>
+    </header>
     <!-- Each image is 350px by 233px -->
+		<transition>
     <div class="photobanner">
-    	<img class="first" src="moonlit" alt="" />
+    	<img class="first" src="../assets/images/moonlit.jpg" alt="" />
     	<img src="../assets/images/alpine_alps.jpg" alt="" />
     	<img src="../assets/images/cabins.jpg" alt="" />
     	<img src="../assets/images/fingal_head.jpg" alt="" />
@@ -15,6 +20,7 @@
     	<img src="../assets/images/cabins.jpg" alt="" />
     	<img src="../assets/images/fingal_head.jpg" alt="" />
     </div>
+		</transition>
 </div>
 	</div>
 </template>
@@ -35,70 +41,30 @@ img{
  margin: 50px auto;
  background: white;
 }
+header {
+ width: 800px;
+ margin: 40px auto;
+}
+
+header h1 {
+ text-align: center;
+ font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+
+}
+
+header p {
+ font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
+ text-align: justify;
+}
+
+/*photobanner*/
+
 .photobanner {
  height: 233px;
  width: 3550px;
  margin-bottom: 80px;
 }
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
 /*keyframe animations*/
 .first {
  -webkit-animation: bannermove 30s linear infinite;
@@ -108,7 +74,7 @@ img{
          animation: bannermove 30s linear infinite;
 }
 
-@keyframes "bannermove" {
+@keyframes bannermove {
  0% {
     margin-left: 0px;
  }
@@ -156,5 +122,26 @@ img{
    margin-left: -2125px;
  }
 
+}
+
+.photobanner img {
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 </style>
