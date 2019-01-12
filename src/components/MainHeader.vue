@@ -1,13 +1,10 @@
 <template >
 	<div class="headerContainer">
-		<h1>This is the page Header</h1>
 		<h3>collection of links to:</h3>
-		<ul>
-			<li>tech </li>
-			<li>websites (sad)</li>
-			<li>resume/contact</li>
-			<li>about</li>
-		</ul>
+			<span>tech </span>
+			<span>websites (sad)</span>
+			<span>resume/contact</span>
+			<span>about</span>
 	</div>
 
 </template>
@@ -19,6 +16,7 @@ export default {
 
 <style lang="css" scoped>
 .headerContainer{
-	border-bottom: 1px solid black
+	text-align: right;
+	color: white;
 }
 </style>
