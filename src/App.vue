@@ -2,7 +2,7 @@
 <template>
   <div id="app">
 		<MainHeader />
-		<!-- <Tools /> -->
+		<Tools />
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 		<MainFooter />
   </div>
@@ -26,13 +26,15 @@ export default {
 <style>
 #app {
   text-align: center;
-
 }
+
 html{
+
 background: url('./assets/images/computer_dark_background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	position: relative;
 }
 </style>
