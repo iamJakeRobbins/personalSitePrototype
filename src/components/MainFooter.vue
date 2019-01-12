@@ -1,11 +1,12 @@
 <template lang="html">
+
   <div class="footerContainer">
+		<footer>
   	<h3>This is the page footer</h3>
-		<ul>
-			<li>github</li>
-			<li>linkedIn</li>
-			<li>email</li>
-		</ul>
+			<span>github </span>
+			<span>linkedIn </span>
+			<span>email</span>
+		</footer>
   </div>
 </template>
 
@@ -16,6 +17,12 @@ export default {
 
 <style lang="css" scoped>
 .footerContainer{
-	border-top: 1px solid black
+	position: fixed;
+	left:0px;
+	bottom:0px;
+	height:80;
+	width:100%;
+	color: white;
+	text-align: left
 }
 </style>
