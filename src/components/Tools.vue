@@ -2,16 +2,13 @@
 	<div class="scrollContainer">
 		<div id="container">
 	    <div class="photobanner">
-	    	<img class="first" src="../assets/images/moonlit.jpg" alt="" />
-	    	<img src="../assets/images/alpine_alps.jpg" alt="" />
-	    	<img src="../assets/images/cabins.jpg" alt="" />
-	    	<img src="../assets/images/fingal_head.jpg" alt="" />
-	    	<img src="../assets/images/foggy.jpg" alt="" />
-	    	<img src="../assets/images/moon_mountain.jpg" alt="" />
-				<img src="../assets/images/moonlit.jpg" alt="" />
-				<img src="../assets/images/alpine_alps.jpg" alt="" />
-	    	<img src="../assets/images/cabins.jpg" alt="" />
-	    	<img src="../assets/images/fingal_head.jpg" alt="" />
+	    	<img class="first" src="../assets/images/Html.png" alt="" />
+	    	<img src="../assets/images/Css.png" alt="" />
+	    	<img src="../assets/images/Javascript.png" alt="" />
+	    	<img src="../assets/images/Typescript.png" alt="" />
+	    	<img src="../assets/images/Jquery.png" alt="" />
+	    	<img src="../assets/images/Vue.png" alt="" />
+				<img src="../assets/images/React.png" alt="" />
 	    </div>
 		</div>
 	</div>
@@ -24,14 +21,15 @@ export default {
 
 <style lang="css" scoped>
 img{
-	height: 233px;
-	width: 350px;
+	height: 128px;
+	width: 128;
+	padding: 5px;
 }
 #container {
  width: 1000px;
  overflow: hidden;
  margin: 50px auto;
- background: white;
+
 }
 header {
  width: 800px;
