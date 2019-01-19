@@ -29,7 +29,6 @@ img{
  width: 1000px;
  overflow: hidden;
  margin: 50px auto;
-
 }
 header {
  width: 800px;
@@ -51,17 +50,17 @@ header p {
 
 .photobanner {
  height: 233px;
- width: 3550px;
+ width: 2000px;
  margin-bottom: 80px;
 }
 
 /*keyframe animations*/
 .first {
- -webkit-animation: bannermove 30s linear infinite;
-    -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-      -o-animation: bannermove 30s linear infinite;
-         animation: bannermove 30s linear infinite;
+ -webkit-animation: bannermove 10s linear infinite;
+    -moz-animation: bannermove 10s linear infinite;
+     -ms-animation: bannermove 10s linear infinite;
+      -o-animation: bannermove 10s linear infinite;
+         animation: bannermove 10s linear infinite;
 }
 
 @keyframes bannermove {
@@ -69,7 +68,7 @@ header p {
     margin-left: 0px;
  }
  100% {
-    margin-left: -2125px;
+    margin-left: -1000px;
  }
 
 }
@@ -79,7 +78,7 @@ header p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
 
 }
@@ -89,7 +88,7 @@ header p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
 
 }
@@ -99,7 +98,7 @@ header p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
 
 }
@@ -109,7 +108,7 @@ header p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -1000px;
  }
 
 }
